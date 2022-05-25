@@ -16,10 +16,7 @@ Our ML Model implementation follows this workflow. Details on each step are elab
 
 ### Dataset at a Glance
 
-##### Source : [Dataset](https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Shahane, 2021))
-
-
-##### Dataset : 
+##### Source : [Dataset](https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Shahane, 2021)) 
 
 ##### Data collection:  Demographic characteristics and vital signs extracted were recorded during the ﬁrst 24 hours of each admission and laboratory variables were measured during the entire ICU stay. Comorbidities were identified using ICD-9 codes. 
 
@@ -103,27 +100,17 @@ Used Seaborn which is a data visualization library based on matplotlib we implem
 
 Relationship of a few predictors with the outcome-
 
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Relation.png)
 
 PCA Threshold variance and PCA relation with the outcome
 
-
-
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Threshold.png)
 
 
 Data Imbalance- Before and After SMOTE
 
-
-
-
-
-
-
-
-
-
-
-
-
+![Before SMOTE](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Beforesmote.png) 
+![After SMOTE](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Aftersmote.png)
 
 
 ### MODELS IMPLEMENTED ON THE DATASET
@@ -147,23 +134,24 @@ XGBoost is an implementation of gradient boosted decision trees designed for spe
 
 ### Confusion Matrix for each model
 ##### Logistic Regression
-
-
-
-
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/LRCF.png)
 
 ##### K-Nearest Neighbour
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/KNCF.png)
 
 
 ##### XGBoost 
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/XGCM.png)
 
 
 ##### Random Forest
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/KNCF.png)
 
 
 ### MODELS EVALUATION- BEST MODEL VISUALIZATION
 We implemented 4 ML models on our dataset and found that the Random Forest model has the best accuracy and it outperformed all the other models we implemented. The boosting model XGBoost also had a good performance and came very close to the accuracy of Random Forest model.  We used a boxplot diagram to show the model which has the best accuracy.
 
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Result.png)
 
 
 ### RECOMMENDATIONS
