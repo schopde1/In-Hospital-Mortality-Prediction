@@ -12,6 +12,8 @@ It can help healthcare workers to prioritize assessing severity of illness and a
 ### Data analysis workflow
 Our ML Model implementation follows this workflow. Details on each step are elaborated in this document.
 
+![](https://github.com/schopde1/In-Hospital-Mortality-Prediction/blob/main/Images/Flow%20Diagram.png)
+
 ### Dataset at a Glance
 
 ##### Source : [Dataset](https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Shahane, 2021))
